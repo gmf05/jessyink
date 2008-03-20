@@ -7,7 +7,7 @@ A feature that has been requested several times and has yet to be implemented is
 
 = Option 1 =
 
-This option has been proposed by  poisendw...@web.de and described on the issue page. This is a verbatim copy of the issue description:
+This option has been proposed by  [http://code.google.com/u/@UhdQQ1VXDhhNWwZ8/ poisendw...@web.de] and described on the issue page. This is a verbatim copy of the issue description:
 
 How to use a master page
   # Select  the lowest layer in Inkscape (e.g."Title" in "jessyink_0_1.svg".
