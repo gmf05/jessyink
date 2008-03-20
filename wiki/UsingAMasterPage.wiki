@@ -1,0 +1,35 @@
+#summary Different options to create master-page.
+
+= Introduction =
+
+A feature that has been requested several times and has yet to be implemented is the support of a master-page (i.e. a page that contains the elements that should be displayed on every slide).
+
+
+= Option 1 =
+
+This option has been proposed by  poisendw...@web.de and described on the issue page. This is a verbatim copy of the issue description:
+
+How to use a master page
+  # Select  the lowest layer in Inkscape (e.g."Title" in "jessyink_0_1.svg".
+  # Create a new layer below the lowest layer and call it e.g. "Master"
+  # Draw background elements and images as you like it
+  # Lock the layer "Master"
+  # Open the "XML-Editor" in Inkscape.
+  # Select the first element "svg:g"
+  # On the right hand side select the "inkscape:groupmode" attribute and click on "delete attribute" above in the symbol panel (see also attached screenshot).
+http://code.google.com/p/jessyink/issues/attachment?aid=6881791091480391965&name=Layer2Master.png
+That's it!
+
+If you want to modify the Master:
+  # Open the "XML-Editor" in Inkscape.
+  # Select the first element "svg:g"
+  # Type "inkscape:groupmode" in the empty field, enter "layer" as attribute value and click "set"
+  # Unlock the layer in the "layer" dialog and modify it
+  # Lock the layer and delete the inkscape:groupmode-attribute (see above)
+
+When you open this svg in firefox, the Master page will always be 
+displayed!
+
+= Option 2 =
+
+Inkscape supports the cloning of elements. It is therefore possible to create an object on one layer and then copy clones the other layers. If the original is changes, all clones will be updated accordingly.
