@@ -1,0 +1,53 @@
+#summary This page explains the installation procedure.
+#labels Featured
+
+= Introduction =
+
+At the moment, there is only a manual installation available. Work on an Inkscape extension that will make the installation (semi-)automatic is in an advanced state.
+
+
+== Manual Installation ==
+
+This installation method is the most basic one. It doesn't require any Inkscape extension. However, there is a fair bit of editing in the XML editor involved.
+
+=== 1) Opening the XML editor ===
+
+The XML in Inkscape can be opened by choosing the according menu entry in the "edit" menu (shown circled in red in Figure 1).
+
+[http://code.google.com/p/jessyink/issues/attachment?aid=-374380236439130652&name=window.jpg]
+
+*Figure 1*
+
+=== 2) Adding an "svg:script" node ===
+
+To incorporate the JessyInk JavaScript into the SVG image, a "script" node has to be created. This can be done by selecting the root node (called "svg:svg", 1 in Figure 2) and pressing the "new element node" button (2 in the Figure 2). A new dialog will be opened, where the name of the node can be specified (3 in Figure 2). The node should be named "svg:script". To create the node, the "Create" button of the dialog is used.
+
+[http://code.google.com/p/jessyink/issues/attachment?aid=-3637302400976569056&name=script_node.jpg]
+
+*Figure 2*
+
+=== 3) Assigning the correct ID attribute to the script node ===
+
+Assigning the right ID to the script node is not critical, if the JessyInk extensions for Inkscape are never used on the SVG file. However, the extensions require the script to have the correct ID, because otherwise they won't find the script. To assign the correct ID, the newly created "svg:script" node is selected (1 in Figure 3). The name of the attribute to be added ("id") is then entered in the text field to the right (2 in Figure 3). In the text box below, the value "JessyInk" is specified. To save the new attribute, the "set" button to the far right can be used. The id attribute should then be displayed in the table in the top right part of the window (3 in Figure 3).
+
+[http://code.google.com/p/jessyink/issues/attachment?aid=-7024817536600607747&name=script_node_id.jpg]
+
+*Figure 3*
+
+=== 4) Adding the actual script ===
+
+To add the JessyInk script, a text node needs to be created for the script node. This can be done by selecting the "svg:script" node as in step 3. Then the "new text node" button (second button from the left) can be used to create the text node. Selecting the text node (1 in Figure 4), opens a text box on the right. Into this text box the JessyInk script can be copied (2 in Figure 4). The JessyInk script can be obtained from the download section of this webpage.
+
+[http://code.google.com/p/jessyink/issues/attachment?aid=1393918943478123784&name=script_node_copy_text.jpg]
+
+*Figure 4*
+
+=== 5) Adding the "onload" attribute to the root node ===
+
+The final step is to add an "onload" attribute to the root node ("svg:svg"). This step is necessary to allow the JessyInk script to do its magic, when the file is loaded into the browser. The procedure is very similar to step 3. First the root node ("svg:svg") is selected (1 in Figure 5). Then the attribute name ("onload") and value ("jessyInkInit()") are set (2 in Figure 5). Using the "set" button (3 in Figure 5), the new attribute can be saved and should appear in the list of attributes (4 in Figure 5).
+
+[http://code.google.com/p/jessyink/issues/attachment?aid=2416712122228051104&name=root_node_argument.jpg]
+
+*Figure 5*
+
+=== 6) Enjoy! ===
