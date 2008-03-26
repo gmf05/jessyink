@@ -1,5 +1,9 @@
-#summary Discussion page for the corresponding [https://blueprints.launchpad.net/jessyink/+spec/time-to-percentage blueprint] on launchpad
+#summary Discussion page for the corresponding blueprint on launchpad
 
 = Introduction =
+
+This is the discussion page for the [https://blueprints.launchpad.net/jessyink/+spec/time-to-percentage blueprint] on the change from time to percentage arguments.
+
+= Details =
 
 At the moment, effects are called with an argument that tells the effect, how much time is elapsed and the effect routine itself can decide how much time it will take in total. This is unpractical for different reasons. Using this systems, all effects of one kind have the same duration. Furthermore, for implementing effect, a way is needed to set all effects of a page in an instant to their initial (when jumping to a page using the index view) or terminal state (when going back in the slide sequence).
