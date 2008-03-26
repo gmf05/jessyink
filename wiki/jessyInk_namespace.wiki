@@ -1,0 +1,5 @@
+#summary Discussion page for the corresponding blueprint on launchpad
+
+= Introduction =
+
+To allow a clean separation of JessyInk arguments from others, they should have a "jessyink" namespace prefix.
