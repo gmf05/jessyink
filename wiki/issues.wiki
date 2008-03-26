@@ -1,0 +1,5 @@
+#summary Issue redirection page.
+
+= Introduction =
+
+For submitting a bug report or a question, please use the "[https://bugs.launchpad.net/jessyink/ Bugs]" and "[https://answers.launchpad.net/jessyink/ Answers]" pages in Launchpad.
