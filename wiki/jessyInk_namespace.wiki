@@ -2,4 +2,8 @@
 
 = Introduction =
 
+This is the discussion page for the [https://blueprints.launchpad.net/jessyink/+spec/jessyink-namespace blueprint] on moving JessyInk arguments into their own namespace.
+
+= Details =
+
 To allow a clean separation of JessyInk arguments from others, they should have a "jessyink" namespace prefix.
