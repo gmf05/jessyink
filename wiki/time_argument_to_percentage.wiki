@@ -1,4 +1,4 @@
-#summary Discussion page for the corresponding blueprint on launchpad
+#summary Discussion page for the corresponding [https://blueprints.launchpad.net/jessyink/+spec/time-to-percentage blueprint] on launchpad
 
 = Introduction =
 
