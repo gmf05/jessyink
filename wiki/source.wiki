@@ -1,4 +1,4 @@
-#summary Source forward page.
+#summary Source redirection page.
 
 = Introduction =
 
