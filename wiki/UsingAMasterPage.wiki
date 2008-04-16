@@ -17,7 +17,7 @@ How to use a master page
   # Open the "XML-Editor" in Inkscape.
   # Select the first element "svg:g"
   # On the right hand side select the "inkscape:groupmode" attribute and click on "delete attribute" above in the symbol panel (see also attached screenshot).
-http://code.google.com/p/jessyink/issues/attachment?aid=6881791091480391965&name=Layer2Master.png
+http://jessyink.googlecode.com/files/Layer2Master.png
 That's it!
 
 If you want to modify the Master:
