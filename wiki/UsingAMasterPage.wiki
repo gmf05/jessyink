@@ -1,4 +1,5 @@
 #summary Different options to create master-page.
+#labels Deprecated
 
 = Introduction =
 
