@@ -3,51 +3,22 @@
 
 = Introduction =
 
-At the moment, there is only a manual installation available. Work on an Inkscape extension that will make the installation (semi-)automatic is in an advanced state.
+Due to the new JessyInk extensions for Inkscape, installation is now (semi-)automatic and very straight forward.
 
+=== 1) Installing the JessyInk extensions ===
 
-== Manual Installation ==
+Simply copy all the files found in the folder named "inkscapeExtensions" from the distribution to a location where Inkscape can find the files. On Linux and OS X, e.g. "~/.inkscape/extensions". I would be grateful, if someone could tell me, which directory work on Windows.
 
-This installation method is the most basic one. It doesn't require any Inkscape extension. However, there is a fair bit of editing in the XML editor involved.
+=== 2) Installing the JessyInk script ===
 
-=== 1) Opening the XML editor ===
+After the JessyInk extension has been installed, a new sub-menu titled "JessyInk" is available in the effects menu. Selecting "install/update" in this menu opens an effect window. Pressing "apply" in this window, installs (or updates) the JessyInk script. Unless you inspect the document in the XML editor, you won't notice any change.
 
-The XML in Inkscape can be opened by choosing the according menu entry in the "edit" menu (shown circled in red in Figure 1).
+=== 3) Adding the "onload" attribute to the root node ===
 
-[http://jessyink.googlecode.com/files/window.jpg]
-
-*Figure 1*
-
-=== 2) Adding an "svg:script" node ===
-
-To incorporate the JessyInk JavaScript into the SVG image, a "script" node has to be created. This can be done by selecting the root node (called "svg:svg", 1 in Figure 2) and pressing the "new element node" button (2 in the Figure 2). A new dialog will be opened, where the name of the node can be specified (3 in Figure 2). The node should be named "svg:script". To create the node, the "Create" button of the dialog is used.
-
-[http://jessyink.googlecode.com/files/script_node.jpg]
-
-*Figure 2*
-
-=== 3) Assigning the correct ID attribute to the script node ===
-
-Assigning the right ID to the script node is not critical, if the JessyInk extensions for Inkscape are never used on the SVG file. However, the extensions require the script to have the correct ID, because otherwise they won't find the script. To assign the correct ID, the newly created "svg:script" node is selected (1 in Figure 3). The name of the attribute to be added ("id") is then entered in the text field to the right (2 in Figure 3). In the text box below, the value "JessyInk" is specified. To save the new attribute, the "set" button to the far right can be used. The id attribute should then be displayed in the table in the top right part of the window (3 in Figure 3).
-
-[http://jessyink.googlecode.com/files/script_node_id.jpg]
-
-*Figure 3*
-
-=== 4) Adding the actual script ===
-
-To add the JessyInk script, a text node needs to be created for the script node. This can be done by selecting the "svg:script" node as in step 3. Then the "new text node" button (second button from the left) can be used to create the text node. Selecting the text node (1 in Figure 4), opens a text box on the right. Into this text box the JessyInk script can be copied (2 in Figure 4). The JessyInk script can be obtained from the download section of this webpage.
-
-[http://jessyink.googlecode.com/files/script_node_copy_text.jpg]
-
-*Figure 4*
-
-=== 5) Adding the "onload" attribute to the root node ===
-
-The final step is to add an "onload" attribute to the root node ("svg:svg"). This step is necessary to allow the JessyInk script to do its magic, when the file is loaded into the browser. The procedure is very similar to step 3. First the root node ("svg:svg") is selected (1 in Figure 5). Then the attribute name ("onload") and value ("jessyInkInit()") are set (2 in Figure 5). Using the "set" button (3 in Figure 5), the new attribute can be saved and should appear in the list of attributes (4 in Figure 5).
+Due to the way Inkscape interacts with extensions, it is currently not possible to have an extension change the attributes of the root node. Hence, this step is still manual. The final step is . To allow the JessyInk script to do its magic when the file is loaded into the browser, it is necessary to add an "onload" attribute to the root node ("svg:svg"). After opening the Inkscape XML editor, the root node ("svg:svg") is selected (1 in Figure 5). Then the attribute name ("onload") and value ("jessyInkInit()") are set (2 in Figure 5). Using the "set" button (3 in Figure 5), the new attribute can be saved and should appear in the list of attributes (4 in Figure 5).
 
 [http://jessyink.googlecode.com/files/root_node_argument.jpg]
 
 *Figure 5*
 
-=== 6) Enjoy! ===
+=== 4) Enjoy! ===
