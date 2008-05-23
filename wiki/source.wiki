@@ -1,5 +1,4 @@
 #summary Source redirection page.
-#labels Deprecated
 
 = Introduction =
 
