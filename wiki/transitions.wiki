@@ -1,0 +1,9 @@
+#summary A description of the slide transition feature.
+
+= Introduction =
+
+Currently, there are three different slide transitions available in JessyInk: appear, fade and pop.
+
+= Details =
+
+Using the JessyInk "transition" extension, the transitions for the slides can be set by supplying the name of the layer in the dialog window and selecting the transition type. Different transition types for transitioning in and out can be specified. Pressing "apply" saves the changes. If no transition is specified, the default transition will be used. If a master slide has been specified, the default transitions are the determined by the master slide transitions, otherwise the default transition is "appear".
