@@ -1,0 +1,10 @@
+#summary Documentation of the master slide feature.
+
+= Introduction =
+
+Yet to be written.
+
+
+= Details =
+
+Yet to be written.
