@@ -7,7 +7,7 @@ Currently, there are three different slide transitions available in JessyInk: ap
 
 = Details =
 
-Using the JessyInk "transition" extension, the transitions for the slides can be set by supplying the name of the layer in the dialog window and selecting the transition type. Different transition types for transitioning in and out can be specified. Pressing "apply" saves the changes. If no transition is specified, the default transition will be used. If a master slide has been specified, the default transitions are the determined by the master slide transitions, otherwise the default transition is "appear".
+Using the JessyInk "transition" extension, the transitions for the slides can be set by supplying the name of the layer in the dialog window and selecting the transition type. Different transition types for transitioning in and out can be specified. Pressing "apply" saves the changes. The default is for the slides to simply "appear". If transition are specified with a master slide, these transitions will be used as the default transitions.
 
 [http://jessyink.googlecode.com/files/extension_transition.jpg]
 _Screenshot of the transition extension._
