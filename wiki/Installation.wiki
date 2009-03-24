@@ -1,6 +1,8 @@
 #summary This page explains the installation procedure.
 #labels Featured
 
+* NOTE: THIS PAGE HAS BEEN UPDATED FOR THE NEW RELEASE (V 1.0) DUE ON 28 MARCH 2009 *
+
 = Introduction =
 
 Due to the new JessyInk extensions for Inkscape, installation is now (semi-)automatic and very straight forward.
