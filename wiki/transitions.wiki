@@ -1,8 +1,6 @@
 #summary A description of the slide transition feature.
 #labels Featured
 
-*NOTE: THIS PAGE HAS BEEN UPDATED FOR THE NEW RELEASE (V 1.0) DUE ON 28 MARCH 2009*
-
 = Introduction =
 
 Currently, there are three different slide transitions available in JessyInk: appear, fade and pop.
