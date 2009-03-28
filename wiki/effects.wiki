@@ -1,8 +1,6 @@
 #summary A description of the effects feature.
 #labels Featured
 
-*NOTE: THIS PAGE HAS BEEN UPDATED FOR THE NEW RELEASE (V 1.0) DUE ON 28 MARCH 2009*
-
 = Introduction =
 
 Although it had often been written that effects in presentations are bad, I still think they can be helpful. Therefore, JessyInk implements effects. Currently, the same effects as transitions are available: appear, fade, pop.
