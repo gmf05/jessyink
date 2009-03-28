@@ -7,7 +7,7 @@ Due to the new JessyInk extensions for Inkscape, installation is now (semi-)auto
 
 === 1) Installing the JessyInk extensions ===
 
-The JessyInk extensions depend on the "inkex" script provided by Inkscape. Therefore, the easiest way to install them is to simply copy all the files found in the folder named "inkscapeExtensions" from the distribution to the directory containing the "inkex.py" file. Depending on your operating system, this file is usually located in one of the following directories:
+The JessyInk extensions depend on the "inkex" script provided by Inkscape. Therefore, the easiest way to install them is to simply copy all the files found in the folder named "inkscapeExtensions" of the distribution to the directory containing the "inkex.py" file. Depending on your operating system, this file is usually located in one of the following directories:
 
   * on Windows (English localisation): "C:\Program Files\Inkscape\share\extensions"
   * on Linux: "/usr/share/inkscape/entensions"
