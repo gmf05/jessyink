@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Due to the new JessyInk extensions for Inkscape, installation is now (semi-)automatic and very straight forward.
+Due to the new JessyInk extensions for Inkscape, installation is now very straight forward.
 
 === 1) Installing the JessyInk extensions ===
 
