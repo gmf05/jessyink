@@ -21,12 +21,4 @@ Should you want to install the JessyInk extensions in a different location or sh
 
 After the JessyInk extension has been installed, a new sub-menu titled "JessyInk" is available in the effects menu. Selecting "install/update" in this menu opens an effect window. Pressing "apply" in this window, installs (or updates) the JessyInk script. Unless you inspect the document in the XML editor, you won't notice any change.
 
-=== 3) Adding the "onload" attribute to the root node ===
-
-Due to the way Inkscape interacts with extensions, it is currently not possible to have an extension change the attributes of the root node. Hence, this step is still manual. The final step is . To allow the JessyInk script to do its magic when the file is loaded into the browser, it is necessary to add an "onload" attribute to the root node ("svg:svg"). After opening the Inkscape XML editor, the root node ("svg:svg") is selected (1 in Figure 1). Then the attribute name ("onload") and value ("jessyInkInit()") are set (2 in Figure 1). Using the "set" button (3 in Figure 1), the new attribute can be saved and should appear in the list of attributes (4 in Figure 1).
-
-[http://jessyink.googlecode.com/files/root_node_argument.jpg]
-
-*Figure 1*
-
-=== 4) Enjoy! ===
+=== 3) Enjoy! ===
