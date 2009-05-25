@@ -1,0 +1,33 @@
+#summary Mouse navigation
+
+= !JessyInk mouse navigation =
+
+See also the [keyboardnav keyboard navigation] page.
+
+== In slide mode ==
+
+Moving backward and forward using set transitions:
+  * *left click* move to the next slide
+
+Moving backward and forward without transitions:
+  * *scroll wheel up* and *scroll wheel down* move back and forward one slide
+
+== In index mode ==
+
+Moving around:
+  * *scroll wheel up* and *scroll wheel down* move back and forward one page
+
+Selecting a slide:
+  * *left click* selects a slide
+
+== Issues ==
+
+*Fixed 2009-05-25*
+  _Currently, clicking on a slide in index mode causes problems. You can click on a slide, but then the mouse wheel events stop working. The anchor part of the URL gets messed-up too: an extra "1" is added to the anchor. Not sure why..._
+
+For {{{window.location.hash = activeSlide + 1;}}} to work, {{{activeSlide}}} must be an integer...
+
+= Branch and presentation =
+
+Code is available here:
+https://code.launchpad.net/~ezindy/jessyink/ui-additions
