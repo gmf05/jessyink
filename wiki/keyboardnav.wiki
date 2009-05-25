@@ -1,0 +1,41 @@
+#summary Keyboard navigation
+
+= !JessyInk keyboard navigation =
+
+See also the [mousenav mouse navigation] page.
+
+== In slide mode ==
+
+Moving backward and forward using set transitions:
+  * *space* move to the next slide
+  * *left* and *right* move back and forward one slide
+
+Moving backward and forward without transitions:
+  * *up* and *down* move back and forward one slide
+  * *page up* and *page down* move back and forward one slide
+
+Switching to index mode:
+  * *i* toggles from _slide_ to _index_ mode
+
+== In index mode ==
+
+Zooming in and out:
+  * *0* reset zoom level (default zoom set to 4 slides across instead of 3?)
+  * *-* zoom out (display more slides)
+  * *+* or *=* zoom in (display less slides)
+
+Moving around:
+  * *up*, *down*, *left*, *right* arrows to select a slide
+  * *page up* and *page down* move back and forward one page
+
+Selecting a slide:
+  * *i* or *enter* toggles from _index_ to _slide_ mode, selecting the highlighted slide
+
+== Issues ==
+
+There might be an issue with the *-*, *+*, *=* zoom keys on non-US keyboards. These shortcuts were designed on a UK keyboard (close enough to the US layout) and I have no idea if the keyboard shortcuts will work on other keyboards. Could someone with a French, German or any other non-US keyboard tell me if the zoom keys work and / or whether there might be other keys to consider.
+
+= Branch and presentation =
+
+Code is available here:
+https://code.launchpad.net/~ezindy/jessyink/ui-additions
