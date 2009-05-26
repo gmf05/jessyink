@@ -35,6 +35,63 @@ Selecting a slide:
 
 There might be an issue with the *-*, *+*, *=* zoom keys on non-US keyboards. These shortcuts were designed on a UK keyboard (close enough to the US layout) and I have no idea if the keyboard shortcuts will work on other keyboards. Could someone with a French, German or any other non-US keyboard tell me if the zoom keys work and / or whether there might be other keys to consider.
 
+Please test and feel in the blanks...
+
+===Firefox===
+Linux:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+Windows XP:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+Mac OS X:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+
+===Opera===
+Linux:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+Windows XP:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+===Safari===
+Windows XP:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+Mac OS X:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+
+===Chrome===
+Windows XP:
+||Key||US||UK||DE||FR||ES||
+|| - ||Yes||Yes||?||?||?||
+|| + ||Yes||Yes||?||?||?||
+|| = ||Yes||Yes||?||?||?||
+
+
 = Branch and presentation =
 
 Code is available here:
