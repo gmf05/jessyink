@@ -56,12 +56,19 @@ Could someone with a French, German or any other non-US keyboard tell me if the 
 So if you have a non-US keyboard, Please test and feel in the blanks...
 
 ||Platform / Key||i||-||+||=||Space||Enter||Up||Down||Left||Right||!PageUp||!PageDown||
-||UK / Firefox 3.10 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
 ||UK / Firefox 3.10 / Ubuntu 9.04 ||?||?||?||?||?||?||?||?||?||?||?||?||
+||UK / Firefox 3.10 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
 ||UK / Opera 9.5 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
-||UK / Opera 9.6 / XP ||?||?||?||?||?||?||?||?||?||?||?||?||
-||UK / Chrome / XP ||?||?||?||?||?||?||?||?||?||?||?||?||
-||UK / Safari / XP ||?||?||?||?||?||?||?||?||?||?||?||?||
+||UK / Opera 9.64 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||UK / Chrome 2.0.172.28 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||UK / Safari 4 (528.16) / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||DE / Firefox 3.10 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||DE / Opera 9.5 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||DE / Opera 9.64 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||DE / Chrome 2.0.172.28 / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+||DE / Safari 4 (528.16) / XP ||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||Y||
+
+(DE only tested on onscreen keyboard)
 
 = Branch and presentation =
 
