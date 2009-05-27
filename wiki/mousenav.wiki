@@ -1,4 +1,4 @@
-#summary Mouse navigation proposal for upcoming versions of !JessyInk
+#summary Mouse navigation proposal for upcoming versions of JessyInk
 
 = !JessyInk mouse navigation (proposal) =
 
