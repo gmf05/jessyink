@@ -1,8 +1,8 @@
-#summary Mouse navigation proposal
+#summary Mouse navigation proposal for upcoming versions of !JessyInk
 
 = !JessyInk mouse navigation (proposal) =
 
-This page discusses mouse navigation for upcoming versions of JessyInk. It is a *proposal* and may not reflect the current state of JessyInk. See also the [keyboardnav keyboard navigation] page.
+This page discusses mouse navigation for upcoming versions of !JessyInk. It is a *proposal* and may not reflect the current state of !JessyInk. See also the [keyboardnav keyboard navigation] page.
 
 == In slide mode ==
 
