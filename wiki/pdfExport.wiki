@@ -1,0 +1,12 @@
+#summary A description of the slide transition feature.
+#labels Featured
+
+= Introduction =
+
+JessyInk ships with an Inkscape export extension that can be used to create a ZIP file containing one PDF file for each slide and effect in the presentation.
+
+= Details =
+
+To use the PDF export, select "Save As..." or "Save a Copy" from the "File" menu of Inkscape. In the file dialog that opens select "JessyInk zipped pdf output" as the file format. The export extension will create one PDF file for each slide and effect, i.e. the first file that is created will be called "slide_1_effect_0", which shows the first slide before any effects were triggered. If there are effects, further PDF files will be created. The PDF files will be named "slide_0_effect_X", where X is replaced by the number of the effect, i.e. "slide_1_effect_2" is the PDF file that shows the first slide after the second effect has been played. After the PDF file showing the first slide after the last effect has been created, the slides for following slides are created.
+
+Please be patient, as the export may take a while.
