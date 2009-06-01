@@ -21,4 +21,13 @@ Should you want to install the JessyInk extensions in a different location or sh
 
 After the JessyInk extension has been installed, a new sub-menu titled "JessyInk" is available in the effects menu. Selecting "install/update" in this menu opens an effect window. Pressing "apply" in this window, installs (or updates) the JessyInk script. Unless you inspect the document in the XML editor, you won't notice any change.
 
-=== 3) Enjoy! ===
+=== 3) Changing file permissions (UNIX) ===
+
+Depending on your platform (UNIX-like, Linux, OS X), you may have to change the permission of the files. The python files need to be executable. Should you experience problems you can try the following: Open the terminal, change into the directory where the JessyInk files are located and change the permissions using:
+
+{{{
+chmod 755 jessy*py
+chmod 644 jessy*inx
+}}}
+
+=== 4) Enjoy! ===
