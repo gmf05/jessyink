@@ -27,6 +27,7 @@ Depending on your platform (UNIX-like, Linux, OS X), you may have to change the 
 
 {{{
 chmod 755 jessy*py
+chmod 755 jessyInk.js
 chmod 644 jessy*inx
 }}}
 
