@@ -9,11 +9,9 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 
 == Slide mode ==
 
-=== LEFT_KEY ===
-dispatchEffects(-1); => back (with effects)
-
-=== RIGHT_KEY ===
-dispatchEffects(1); => next (with effects)
+|| *key* || *commands* || *action* ||
+|| LEFT_KEY || dispatchEffects(-1); || back (with effects) ||
+|| RIGHT_KEY || dispatchEffects(1); || next (with effects) ||
 
 == Index mode ==
 
