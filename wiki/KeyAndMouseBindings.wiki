@@ -12,11 +12,14 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || *key* || *commands* || *action* ||
 || LEFT_KEY || dispatchEffects(-1); || back (with effects) ||
 || RIGHT_KEY || dispatchEffects(1); || next (with effects) ||
+|| UP_KEY || skipEffects(-1); || back (without effects) ||
+|| DOWN_KEY || skipEffects(1); || next (without effects) ||
+				
 
 == Index mode ==
 
-=== LEFT_KEY ===
-indexSetPageSlide(activeSlide - 1); => previous slide
-
-=== RIGHT_KEY ===
-indexSetPageSlide(activeSlide + 1); => next slide
+|| *key* || *commands* || *action* ||
+|| LEFT_KEY || indexSetPageSlide(activeSlide - 1); || previous slide ||
+|| RIGHT_KEY || indexSetPageSlide(activeSlide + 1); || next slide ||
+|| UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS); || one row up ||
+|| DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS); || one row down ||
