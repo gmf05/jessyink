@@ -36,6 +36,8 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || W_KEY || path_colour = "white"; || set path colour to white ||
 || Y_KEY || path_colour = "yellow"; || set path colour to yellow ||
 || Z_KEY || var p = history_presentation_elements.pop(); || undo last path segment ||
+
+----
 			
 == Index mode ==
 
