@@ -77,8 +77,8 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 
 Corner stones of the proposed implementation:
 
-* Three modes are defined (slide, index and drawing).
-* For each mode a set of actions are defined (essentially the ones outlined above).
-* A limited set of "function" keys are defined (enter, space, arrow keys, etc.).
-* Key events for "function" keys is performed based on key codes, for all other keyboard input char codes are used.
-* Mouse click and move handlers are defined for each mode separately.
+  * Three modes are defined (slide, index and drawing).
+  * For each mode a set of actions are defined (essentially the ones outlined above).
+  * A limited set of "function" keys are defined (enter, space, arrow keys, etc.).
+  * Key events for "function" keys is performed based on key codes, for all other keyboard input char codes are used.
+  * Mouse click and move handlers are defined for each mode separately.
