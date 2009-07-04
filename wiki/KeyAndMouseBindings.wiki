@@ -17,8 +17,9 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || PAGE_UP_KEY || dispatchEffects(-1); || back (with effects) ||
 || PAGE_DOWN_KEY || dispatchEffects(1); || next (with effects) ||
 || HOME_KEY || slideSetActiveSlide(0); || first slide ||
-
-
+|| END_KEY || slideSetActiveSlide(slides.length - 1); || last slide ||
+|| I_KEY || toggleSlideIndex(); || change to index mode ||
+|| SPACE_KEY || dispatchEffects(1); || next (with effects) ||
 
 == Index mode ==
 
@@ -27,6 +28,17 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || RIGHT_KEY || indexSetPageSlide(activeSlide + 1); || next slide ||
 || UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS); || one row up ||
 || DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS); || one row down ||
-|| PAGE_UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS * INDEX_COLUMNS); || previous page ||
-|| PAGE_DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS * INDEX_COLUMNS); || next page ||
+|| PAGE_UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS `*` INDEX_COLUMNS); || previous page ||
+|| PAGE_DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS `*` INDEX_COLUMNS); || next page ||
 || HOME_KEY || indexSetPageSlide(0); || first slide ||
+|| END_KEY || indexSetPageSlide(slides.length - 1); || last slide ||
+|| I_KEY || toggleSlideIndex(); || change to slide mode ||
+|| ENTER_KEY || toggleSlideIndex(); || change to slide mode ||
+|| MINUS_KEY || {{{
+if (INDEX_COLUMNS >= 3)
+{
+  INDEX_COLUMNS -= 1;
+  INDEX_OFFSET = -1
+  indexSetPageSlide(activeSlide);
+}
+}}} || decrease number of columns ||
