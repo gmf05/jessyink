@@ -28,7 +28,15 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || G_KEY || path_colour = "green"; || set path colour to green ||
 || K_KEY || path_colour = "black"; || set path colour to black ||
 || M_KEY || path_colour = "magenta"; || set path colour to magenta ||
-
+|| N_KEY || addSlide(activeSlide); || add a slide ||
+|| O_KEY || path_colour = "orange"; || set path colour to orange ||
+|| P_KEY || if (progress_bar_visible) || toggle progress bar ||
+|| R_KEY || path_colour = "red"; || set path colour to red ||
+|| T_KEY || timer_start = timer_elapsed; || reset timer ||
+|| W_KEY || path_colour = "white"; || set path colour to white ||
+|| Y_KEY || path_colour = "yellow"; || set path colour to yellow ||
+|| Z_KEY || var p = history_presentation_elements.pop(); || undo last path segment ||
+			
 == Index mode ==
 
 || *key* || *commands* || *action* ||
@@ -52,3 +60,11 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || G_KEY || path_colour = "green"; || set path colour to green ||
 || K_KEY || path_colour = "black"; || set path colour to black ||
 || M_KEY || path_colour = "magenta"; || set path colour to magenta ||
+|| N_KEY || addSlide(activeSlide); || add a slide ||
+|| O_KEY || path_colour = "orange"; || set path colour to orange ||
+|| P_KEY || if (progress_bar_visible) || toggle progress bar ||
+|| R_KEY || path_colour = "red"; || set path colour to red ||
+|| T_KEY || timer_start = timer_elapsed; || reset timer ||
+|| W_KEY || path_colour = "white"; || set path colour to white ||
+|| Y_KEY || path_colour = "yellow"; || set path colour to yellow ||
+|| Z_KEY || var p = history_presentation_elements.pop(); || undo last path segment ||
