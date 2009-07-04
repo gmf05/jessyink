@@ -5,7 +5,7 @@
 
 One of the goals for version 1.3 is to introduce custom key bindings. The idea is to define a set of "actions" (which correspond to functions or sequences of functions in the JessyInk script) and allow the user to bind them to specific keys. The summary below is intended to provide an overview of the current key bindings. These can than be consolidated into "actions". The main purpose of this page is the use for development.
 
-= Summary of actions =
+= Summary of current actions =
 
 == Slide mode ==
 
@@ -70,3 +70,15 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || W_KEY || path_colour = "white"; || set path colour to white ||
 || Y_KEY || path_colour = "yellow"; || set path colour to yellow ||
 || Z_KEY || var p = history_presentation_elements.pop(); || undo last path segment ||
+
+----
+
+== Proposal ==
+
+Corner stones of the proposed implementation:
+
+* Three modes are defined (slide, index and drawing).
+* For each mode a set of actions are defined (essentially the ones outlined above).
+* A limited set of "function" keys are defined (enter, space, arrow keys, etc.).
+* Key events for "function" keys is performed based on key codes, for all other keyboard input char codes are used.
+* Mouse click and move handlers are defined for each mode separately.
