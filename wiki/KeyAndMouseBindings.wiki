@@ -14,7 +14,11 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || RIGHT_KEY || dispatchEffects(1); || next (with effects) ||
 || UP_KEY || skipEffects(-1); || back (without effects) ||
 || DOWN_KEY || skipEffects(1); || next (without effects) ||
-				
+|| PAGE_UP_KEY || dispatchEffects(-1); || back (with effects) ||
+|| PAGE_DOWN_KEY || dispatchEffects(1); || next (with effects) ||
+|| HOME_KEY || slideSetActiveSlide(0); || first slide ||
+
+
 
 == Index mode ==
 
@@ -23,3 +27,6 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || RIGHT_KEY || indexSetPageSlide(activeSlide + 1); || next slide ||
 || UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS); || one row up ||
 || DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS); || one row down ||
+|| PAGE_UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS * INDEX_COLUMNS); || previous page ||
+|| PAGE_DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS * INDEX_COLUMNS); || next page ||
+|| HOME_KEY || indexSetPageSlide(0); || first slide ||
