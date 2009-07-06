@@ -9,33 +9,41 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 
 == Slide mode ==
 
-|| *key* || *commands* || *action* ||
-|| LEFT_KEY || dispatchEffects(-1); || back (with effects) ||
-|| RIGHT_KEY || dispatchEffects(1); || next (with effects) ||
-|| UP_KEY || skipEffects(-1); || back (without effects) ||
-|| DOWN_KEY || skipEffects(1); || next (without effects) ||
-|| PAGE_UP_KEY || dispatchEffects(-1); || back (with effects) ||
-|| PAGE_DOWN_KEY || dispatchEffects(1); || next (with effects) ||
-|| HOME_KEY || slideSetActiveSlide(0); || first slide ||
-|| END_KEY || slideSetActiveSlide(slides.length - 1); || last slide ||
-|| I_KEY || toggleSlideIndex(); || change to index mode ||
-|| SPACE_KEY || dispatchEffects(1); || next (with effects) ||
-|| ZERO_KEY || path_width = path_width_default; || set path width to default ||
-|| ONE_KEY - NINE_KEY || set_path_paint_width(); || set path width ||
-|| B_KEY || path_colour = "blue"; || set path colour to blue ||
-|| C_KEY || path_colour = "cyan"; || set path colour to cyan ||
-|| D_KEY || timer_duration = new_duration; || set duration ||
-|| G_KEY || path_colour = "green"; || set path colour to green ||
-|| K_KEY || path_colour = "black"; || set path colour to black ||
-|| M_KEY || path_colour = "magenta"; || set path colour to magenta ||
-|| N_KEY || addSlide(activeSlide); || add a slide ||
-|| O_KEY || path_colour = "orange"; || set path colour to orange ||
-|| P_KEY || if (progress_bar_visible) || toggle progress bar ||
-|| R_KEY || path_colour = "red"; || set path colour to red ||
-|| T_KEY || timer_start = timer_elapsed; || reset timer ||
-|| W_KEY || path_colour = "white"; || set path colour to white ||
-|| Y_KEY || path_colour = "yellow"; || set path colour to yellow ||
-|| Z_KEY || var p = history_presentation_elements.pop(); || undo last path segment ||
+|| *action* || *default key* ||
+|| back (with effects) || LEFT ||
+|| next (with effects) || RIGHT ||
+|| back (without effects) || UP ||
+|| next (without effects) || DOWN ||
+|| back (with effects) || PAGE_UP ||
+|| next (with effects) || PAGE_DOWN ||
+|| first slide || HOME ||
+|| last slide || END ||
+|| change to index mode || i ||
+|| next (with effects) || SPACE ||
+|| set path width to default || 0 ||
+|| set path width to 1 || 1 ||
+|| set path width to 2 || 2 ||
+|| set path width to 3 || 3 ||
+|| set path width to 4 || 4 ||
+|| set path width to 5 || 5 ||
+|| set path width to 6 || 6 ||
+|| set path width to 7 || 7 ||
+|| set path width to 8 || 8 ||
+|| set path width to 9 || 9 ||
+|| set path colour to blue || b ||
+|| set path colour to cyan || c ||
+|| set duration || d ||
+|| set path colour to green || g ||
+|| set path colour to black || k ||
+|| set path colour to magenta || m ||
+|| add a slide || n ||
+|| set path colour to orange || o ||
+|| toggle progress bar || p ||
+|| set path colour to red || r ||
+|| reset timer || t ||
+|| set path colour to white || w ||
+|| set path colour to yellow || y ||
+|| undo last path segment || z ||
 
 ----
 			
