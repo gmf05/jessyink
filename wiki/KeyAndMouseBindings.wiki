@@ -57,7 +57,7 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 			
 == Index mode ==
 
-|| *key* || *commands* || *action* ||
+|| *action* || *default key* ||
 || select the slide to the left || LEFT ||
 || select the slide to the right || RIGHT ||
 || select the slide above || UP ||
