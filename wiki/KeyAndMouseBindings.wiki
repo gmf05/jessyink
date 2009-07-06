@@ -5,7 +5,7 @@
 
 One of the goals for version 1.3 is to introduce custom key bindings. The idea is to define a set of "actions" (which correspond to functions or sequences of functions in the JessyInk script) and allow the user to bind them to specific keys. The summary below is intended to provide an overview of the current key bindings. These can than be consolidated into "actions". The main purpose of this page is the use for development.
 
-= Summary of current actions =
+= Summary of default key bindings in version 1.3 =
 
 == Slide mode ==
 
@@ -20,6 +20,18 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || last slide || END ||
 || change to index mode || i ||
 || next (with effects) || SPACE ||
+|| switch to drawing mode || d ||
+|| set duration || D ||
+|| add a slide || n ||
+|| toggle progress bar || p ||
+|| reset timer || t ||
+
+----
+
+== Drawing mode ==
+
+|| *action* || *default key* ||
+|| switch to slide mode || d ||
 || set path width to default || 0 ||
 || set path width to 1 || 1 ||
 || set path width to 2 || 2 ||
@@ -32,15 +44,11 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || set path width to 9 || 9 ||
 || set path colour to blue || b ||
 || set path colour to cyan || c ||
-|| set duration || d ||
 || set path colour to green || g ||
 || set path colour to black || k ||
 || set path colour to magenta || m ||
-|| add a slide || n ||
 || set path colour to orange || o ||
-|| toggle progress bar || p ||
 || set path colour to red || r ||
-|| reset timer || t ||
 || set path colour to white || w ||
 || set path colour to yellow || y ||
 || undo last path segment || z ||
@@ -50,43 +58,17 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 == Index mode ==
 
 || *key* || *commands* || *action* ||
-|| LEFT_KEY || indexSetPageSlide(activeSlide - 1); || previous slide ||
-|| RIGHT_KEY || indexSetPageSlide(activeSlide + 1); || next slide ||
-|| UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS); || one row up ||
-|| DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS); || one row down ||
-|| PAGE_UP_KEY || indexSetPageSlide(activeSlide - INDEX_COLUMNS `*` INDEX_COLUMNS); || previous page ||
-|| PAGE_DOWN_KEY || indexSetPageSlide(activeSlide + INDEX_COLUMNS `*` INDEX_COLUMNS); || next page ||
-|| HOME_KEY || indexSetPageSlide(0); || first slide ||
-|| END_KEY || indexSetPageSlide(slides.length - 1); || last slide ||
-|| I_KEY || toggleSlideIndex(); || change to slide mode ||
-|| ENTER_KEY || toggleSlideIndex(); || change to slide mode ||
-|| MINUS_KEY || INDEX_COLUMNS -= 1; || decrease number of columns ||
-|| EQUAL_KEY || INDEX_COLUMNS += 1; || increase number of columns ||
-|| ZERO_KEY || INDEX_COLUMNS = INDEX_COLUMNS_DEFAULT; || set number of columns to default ||
-|| ONE_KEY - NINE_KEY || set_path_paint_width(); || set path width ||
-|| B_KEY || path_colour = "blue"; || set path colour to blue ||
-|| C_KEY || path_colour = "cyan"; || set path colour to cyan ||
-|| D_KEY || timer_duration = new_duration; || set duration ||
-|| G_KEY || path_colour = "green"; || set path colour to green ||
-|| K_KEY || path_colour = "black"; || set path colour to black ||
-|| M_KEY || path_colour = "magenta"; || set path colour to magenta ||
-|| N_KEY || addSlide(activeSlide); || add a slide ||
-|| O_KEY || path_colour = "orange"; || set path colour to orange ||
-|| P_KEY || if (progress_bar_visible) || toggle progress bar ||
-|| R_KEY || path_colour = "red"; || set path colour to red ||
-|| T_KEY || timer_start = timer_elapsed; || reset timer ||
-|| W_KEY || path_colour = "white"; || set path colour to white ||
-|| Y_KEY || path_colour = "yellow"; || set path colour to yellow ||
-|| Z_KEY || var p = history_presentation_elements.pop(); || undo last path segment ||
-
-----
-
-== Proposal ==
-
-Corner stones of the proposed implementation:
-
-  * Three modes are defined (slide, index and drawing).
-  * For each mode a set of actions are defined (essentially the ones outlined above).
-  * A limited set of "function" keys are defined (enter, space, arrow keys, etc.).
-  * Key events for "function" keys is performed based on key codes, for all other keyboard input char codes are used.
-  * Mouse click and move handlers are defined for each mode separately.
+|| select the slide to the left || LEFT ||
+|| select the slide to the right || RIGHT ||
+|| select the slide above || UP ||
+|| select the slide below || DOWN ||
+|| previous page || PAGE_UP ||
+|| next page || PAGE_DOWN ||
+|| first slide || HOME ||
+|| last slide || END ||
+|| change to slide mode || i ||
+|| change to slide mode || ENTER ||
+|| decrease number of columns || - ||
+|| increase number of columns || = ||
+|| increase number of columns || + ||
+|| set number of columns to default || 0 ||
