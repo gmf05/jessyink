@@ -63,9 +63,7 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || next page || PAGE_DOWN ||
 || first slide || HOME ||
 || last slide || END ||
-|| change to slide mode || i ||
-|| change to slide mode || ENTER ||
+|| change to slide mode || ENTER, i ||
 || decrease number of columns || - ||
-|| increase number of columns || = ||
-|| increase number of columns || + ||
+|| increase number of columns || =, + ||
 || set number of columns to default || 0 ||
