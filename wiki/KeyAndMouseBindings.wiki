@@ -1,11 +1,25 @@
-#summary This page summarises the key and mouse bindings for version 1.3.
-#labels Phase-Implementation
+#summary This page summarises the key bindings for version 1.3.
+#labels Featured
 
 = Introduction =
 
-One of the goals for version 1.3 is to introduce custom key bindings. The idea is to define a set of "actions" (which correspond to functions or sequences of functions in the JessyInk script) and allow the user to bind them to specific keys. The summary below is intended to provide an overview of the current key bindings. These can than be consolidated into "actions". The main purpose of this page is the use for development.
+Starting from version 1.3 of JessyInk it is possible to choose custom key bindings. For each of the modes available in JessyInk a set of actions has been defined. Using the corresponding Inkscape extension, it is possible to choose key bindings for these actions by simply entering the character into the text field next to the action. To assign more than one key, simply separate the characters by a comma. To assign special keys (e.g. the enter key or arrow keys) descriptions of these keys can be used. The following descriptions are implemented:
 
-= Summary of default key bindings in version 1.3 =
+|| *key* || *description* ||
+|| return key || RETURN ||
+|| arrow up || UP ||
+|| arrow down || DOWN ||
+|| arrow left || LEFT ||
+|| arrow right || RIGHT ||
+|| page up || PAGE_UP ||
+|| page down || PAGE_DOWN ||
+|| space bar || SPACE ||
+|| home key || HOME ||
+|| end key || END ||
+
+----
+
+= Summary of default key bindings =
 
 == Slide mode ==
 
@@ -31,13 +45,9 @@ One of the goals for version 1.3 is to introduce custom key bindings. The idea i
 || switch to slide mode || d ||
 || set path width to default || 0 ||
 || set path width to 1 || 1 ||
-|| set path width to 2 || 2 ||
 || set path width to 3 || 3 ||
-|| set path width to 4 || 4 ||
 || set path width to 5 || 5 ||
-|| set path width to 6 || 6 ||
 || set path width to 7 || 7 ||
-|| set path width to 8 || 8 ||
 || set path width to 9 || 9 ||
 || set path colour to blue || b ||
 || set path colour to cyan || c ||
