@@ -12,7 +12,9 @@ Using the JessyInk "mouse handler" extension, the different sets of mouse handle
 		
 Pressing "apply" saves the changes.
 		
+
 [http://jessyink.googlecode.com/files/extension_mouse_handler.png]
+
 _Dialog window of the mouse handler extension._
 
 == The default mouse handler ==
