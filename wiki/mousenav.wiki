@@ -1,4 +1,4 @@
-#summary Mouse navigation updated for version 1.4.0
+#summary Mouse navigation (updated for version 1.4.1)
 
 = Mouse handler =
 		
