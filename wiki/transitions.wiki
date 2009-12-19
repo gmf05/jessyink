@@ -1,4 +1,4 @@
-#summary A description of the slide transition feature (updated for version 1.4.0).
+#summary A description of the slide transition feature (updated for version 1.4.1).
 #labels Featured
 
 = Transitions =
@@ -8,6 +8,36 @@ Currently, there are three different slide transitions available in JessyInk: ap
 
 Transitions can also be assigned to the master slide where they will act as the default transition for all slides.
 		
+
+== The "appear" transition ==
+		
+The "appear" transition is the simplest transition. With this transition the slide simply appears. The effect is instantly. Therefore, the duration setting has no effect on this transition.
+		
+
+
+[http://jessyink.googlecode.com/files/transition_appear.png]
+
+_Illustration of the "appear" transition._
+
+== The "fade" transition ==
+		
+The "fade" transition incrementally increases the opacity of a slide. The time from zero opacity to full opacity can be adjusted using the duration setting.
+		
+
+
+[http://jessyink.googlecode.com/files/transition_fade.png]
+
+_Illustration of the "fade" transition._
+
+== The "pop" transition ==
+		
+The "pop" transition incrementally increases the opacity of a slide and scales it at the same time. As with the "fade" transition, the duration can be adjusted.
+		
+
+
+[http://jessyink.googlecode.com/files/transition_pop.png]
+
+_Illustration of the "pop" transition._
 
 == Assigning transitions to a slide ==
 		
