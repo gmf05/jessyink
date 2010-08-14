@@ -1,5 +1,5 @@
+#summary Articles, tutorials and screenscasts on JessyInk
 #labels Featured
-#Articles, tutorials and screenscasts on JessyInk
 
 = Publications on JessyInk =
 
