@@ -7,7 +7,7 @@ This section provides links to some of the articles, blog posts, tutorials and s
 		
 == [http://www.fedaro.info/2013/02/23/presentaciones-prezi-vs-jessyink/ Presentaciones, Prezi vs. JessyInk] (Fernando da Rosa Morena , 23 February 2013) ==
 
-A Spanish blog post by Fernando da Rosa Morena with a very complete and detailed comparison of Prezi and JessyInk.
+A Spanish blog post by Fernando da Rosa Morena with a very complete and detailed comparison of Prezi and JessyInk. The article also includes examples and video.
 
 == [http://www.youtube.com/watch?v=u4ztqgYSBhE Präsentation mit Inkscape "free your slides"] (Sirko Kemter, Ubucon 2011) ==
 		
