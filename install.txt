@@ -1,0 +1,7 @@
+Copy scripts in inkscapeExtensions to following locations...
+
+x. on Windows (English localisation): "C:\Program Files\Inkscape\share\extensions"
+
+x. on Linux: "/usr/share/inkscape/extensions"
+
+x. on OS X: "/Applications/Inkscape.app/Contents/Resources/extensions"
